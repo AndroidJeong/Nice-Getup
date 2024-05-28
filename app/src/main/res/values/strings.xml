@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NiceGetup</string>
+    <string name="weather">날씨</string>
+    <string name="getup">옷차림</string>
 </resources>
