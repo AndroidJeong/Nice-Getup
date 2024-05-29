@@ -53,4 +53,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // 스플래시 API호출
+    implementation("androidx.core:core-splashscreen:1.0.0")
 }
