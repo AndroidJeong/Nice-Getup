@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NiceGetup</string>
+    <string name="weather">날씨</string>
 </resources>
