@@ -11,7 +11,7 @@
         android:id="@+id/tbMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/topAndBottom"
+        android:background="@color/sky_blue"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <FrameLayout
@@ -41,7 +41,7 @@
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/topAndBottom"
+        android:background="@color/sky_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottomnavigation_main"
         app:labelVisibilityMode="unlabeled"
