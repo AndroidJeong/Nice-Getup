@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
    private lateinit var binding: ActivityMainBinding
    private val weatherFragment = WeatherFragment()
-   private val getupFragment = GetupFragment()
+   private val getupFragment = getupFragment()
 
 
 
