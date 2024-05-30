@@ -57,4 +57,7 @@ dependencies {
     val lifecycle_version = "2.5.1"
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
 
+
+    // 스플래시 API호출
+    implementation("androidx.core:core-splashscreen:1.0.0")
 }
