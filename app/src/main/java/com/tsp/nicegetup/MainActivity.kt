@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
     private val weatherFragment = WeatherFragment()
     private val getupFragment = GetupFragment()
 
-
     private lateinit var locationProvider: LocationProvider
 
     //런타임 권한 요청 시 필요한 요청 코드
@@ -182,7 +181,6 @@ class MainActivity : AppCompatActivity() {
                     "권한이 거부되었습니다. 앱을 다시 실행해서 권한을 허용해주세요.",
                     Toast.LENGTH_LONG
                 ).show()
-                finish()
             }
         }
 
@@ -200,7 +198,6 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     Toast.makeText(this@MainActivity, "위치 서비스를 사용할 수 없습니다.", Toast.LENGTH_LONG)
                         .show()
-                    finish()
                 }
             }
         }
@@ -219,8 +216,6 @@ class MainActivity : AppCompatActivity() {
         builder.setNegativeButton("취소", DialogInterface.OnClickListener { dialog, which ->
             dialog.cancel()
             Toast.makeText(this@MainActivity, "위치 서비스를 사용할 수 없습니다.", Toast.LENGTH_LONG).show()
-            finish()
-            // 토스트 같은걸로 변경하기
         })
         builder.create().show()
     }
@@ -261,7 +256,7 @@ class MainActivity : AppCompatActivity() {
 
         //데이터를 받아 쓸 데이터만 정제하는 부분
         val todayTem = data.list[0].main.temp
-        Log.d("taag", "${data.list}")
+
 
     }
 
