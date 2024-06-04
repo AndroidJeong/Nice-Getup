@@ -54,10 +54,18 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    //뷰모델
     val lifecycle_version = "2.5.1"
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
 
 
     // 스플래시 API호출
     implementation("androidx.core:core-splashscreen:1.0.0")
+
+
+    //레트로핏
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.google.code.gson:gson:2.8.6")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
 }
