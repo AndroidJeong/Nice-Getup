@@ -220,6 +220,7 @@ class MainActivity : AppCompatActivity() {
             dialog.cancel()
             Toast.makeText(this@MainActivity, "위치 서비스를 사용할 수 없습니다.", Toast.LENGTH_LONG).show()
             finish()
+            // 토스트 같은걸로 변경하기
         })
         builder.create().show()
     }
